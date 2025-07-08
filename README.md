@@ -20,7 +20,7 @@ The train data use total 69 images with transformation library [Albumentations](
 
 The object detection with anchor boxes with label name for specific area.
 
-<img src="https://github.com/GreatSoravit/PAN_OCR/blob/master/4_predictions_blur.jpg" width=75% height=75%>
+<img src="https://github.com/GreatSoravit/PAN_OCR/blob/master/4_predictions_blur.jpg">
 
 The cropped images will generate in cropimgs folder as below.
 
