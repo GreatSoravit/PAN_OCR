@@ -9,7 +9,7 @@ The program structure use Darknet to identify specific text section of ID card, 
 
 As labeling images for train data, I use [VoTT](https://github.com/microsoft/VoTT) to label each section of image, then generate as yolo anchors boxes format to use when training.
 
-<img src="https://github.com/GreatSoravit/PAN_OCR/blob/master/1_VoTT_blur.png" width=75% height=75%>
+<img src="https://github.com/GreatSoravit/PAN_OCR/blob/master/1_VoTT_blur.png">
 
 Darknet use yolov4 model object detection with custom weight which obtain by train model with ID card data label with pre-train weight to recognize specific section.
 The train data use total 69 images with transformation library [Albumentations](https://github.com/albumentations-team/albumentations) to produce transform images to increase training size from original 23 images.
